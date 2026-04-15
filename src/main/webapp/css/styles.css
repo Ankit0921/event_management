@@ -485,44 +485,6 @@ button {
   color: #5d6572
 }
 
-.badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 28px;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: capitalize;
-  width: max-content;
-}
-
-.badge.green {
-  background: #e6f7ee;
-  color: var(--green)
-}
-
-.badge.orange {
-  background: #fff3e0;
-  color: var(--orange)
-}
-
-.badge.red {
-  background: #fdeaea;
-  color: var(--red)
-}
-
-.badge.blue {
-  background: #e8f0fb;
-  color: var(--blue)
-}
-
-.badge.gray {
-  background: #eef1f5;
-  color: #5e6a7a
-}
-
 .tabs {
   display: flex;
   gap: 10px;
