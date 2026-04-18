@@ -5,46 +5,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EventBridge - Dashboard</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="<%= request.getContextPath() %>/css_a/styles.css" />
 </head>
 
 <body>
   <div class="app-shell">
     <aside class="sidebar">
       <div class="sidebar-top">
-        <a class="brand" href="index.jsp"><img src="assets/logo-eventbridge.png" alt="EventBridge logo"></a>
+        <a class="brand" href="index.jsp"><img src="<%= request.getContextPath() %>/assets_a/logo-eventbridge.png" alt="EventBridge logo"></a>
         <nav class="side-nav"><a class="nav-link active" href="index.jsp">
-            <img src="assets/nav-dashboard-active.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-dashboard-active.png" alt="">
             <span>Dashboard</span>
           </a>
           <a class="nav-link " href="users.jsp">
-            <img src="assets/nav-users.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-users.png" alt="">
             <span>Users</span>
           </a>
           <a class="nav-link " href="venues.jsp">
-            <img src="assets/nav-venues.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-venues.png" alt="">
             <span>Venues</span>
           </a>
           <a class="nav-link " href="bookings.jsp">
-            <img src="assets/nav-bookings.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-bookings.png" alt="">
             <span>Bookings</span>
           </a>
           <a class="nav-link " href="expenses.jsp">
-            <img src="assets/nav-expenses.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-expenses.png" alt="">
             <span>Expenses</span>
           </a>
           <a class="nav-link " href="payments.jsp">
-            <img src="assets/nav-payments.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-payments.png" alt="">
             <span>Payments</span>
           </a>
           <a class="nav-link " href="profile.jsp">
-            <img src="assets/nav-profile.png" alt="">
+            <img src="<%= request.getContextPath() %>/assets_a/nav-profile.png" alt="">
             <span>Profile</span>
           </a>
         </nav>
       </div>
       <a class="logout-link" href="login.jsp">
-        <img src="assets/nav-logout.png" alt="">
+        <img src="<%= request.getContextPath() %>/assets_a/nav-logout.png" alt="">
         <span>Logout</span>
       </a>
     </aside>
@@ -55,7 +55,7 @@
         <div class="topbar-right">
           <a class="admin-chip" href="profile.jsp">
             <span>Admin</span>
-            <img src="assets/avatar-admin.png" alt="Admin avatar">
+            <img src="<%= request.getContextPath() %>/assets_a/avatar-admin.png" alt="Admin avatar">
           </a>
         </div>
       </header>
@@ -71,22 +71,22 @@
 
       <section class="stats-grid" id="dashboardStats">
         <article class="stat-card">
-          <div class="stat-icon"><img src="assets/stat-users.png" alt=""></div>
+          <div class="stat-icon"><img src="<%= request.getContextPath() %>/assets_a/stat-users.png" alt=""></div>
           <p>Total Users</p>
           <h3 id="dashboardUsers">0</h3>
         </article>
         <article class="stat-card">
-          <div class="stat-icon"><img src="assets/stat-venues.png" alt=""></div>
+          <div class="stat-icon"><img src="<%= request.getContextPath() %>/assets_a/stat-venues.png" alt=""></div>
           <p>Total Venues</p>
           <h3 id="dashboardVenues">0</h3>
         </article>
         <article class="stat-card">
-          <div class="stat-icon"><img src="assets/stat-bookings.png" alt=""></div>
+          <div class="stat-icon"><img src="<%= request.getContextPath() %>/assets_a/stat-bookings.png" alt=""></div>
           <p>Total Bookings</p>
           <h3 id="dashboardBookings">0</h3>
         </article>
         <article class="stat-card">
-          <div class="stat-icon"><img src="assets/stat-revenue.png" alt=""></div>
+          <div class="stat-icon"><img src="<%= request.getContextPath() %>/assets_a/stat-revenue.png" alt=""></div>
           <p>Total Revenue</p>
           <h3 id="dashboardRevenue">Rs. 0</h3>
         </article>

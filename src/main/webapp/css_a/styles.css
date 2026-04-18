@@ -154,8 +154,15 @@ button {
   margin: 0 10px 36px;
 }
 
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .searchbar {
-  width: min(100%, 310px);
+  width: 310px;
   height: 40px;
   border-radius: 14px;
   background: var(--soft);
@@ -209,6 +216,7 @@ button {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-left: auto;
 }
 
 .admin-chip {
@@ -270,7 +278,6 @@ button {
   border-radius: 8px;
   padding: 0 12px;
   display: inline-flex;
-  margin-left: -850px;
   align-items: center;
   justify-content: center;
   gap: 6px;
@@ -293,6 +300,15 @@ button {
   background: var(--soft);
   color: var(--text);
 }
+
+.topbar-btn {
+  height: 40px;
+  padding: 0 18px;
+  border-radius: 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 
 .summary-card {
   background: var(--soft);
@@ -1174,4 +1190,15 @@ button {
   font-size: 14px;
   font-weight: 500;
   color: #bababa;
+}
+@media (max-width: 900px) {
+  .topbar {
+    flex-wrap: wrap;
+  }
+
+  .topbar-right {
+    margin-left: 0;
+    width: 100%;
+    justify-content: flex-end;
+  }
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EventBridge Login</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/css_a/styles.css" />
 </head>
 
 <body>
